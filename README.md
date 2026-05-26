@@ -68,6 +68,39 @@ This skill is grounded in:
 Where a primary source could not be fetched at authoring time the doc links
 out so the reader can retrieve it directly.
 
+## Acknowledgments
+
+**Gold-standard references for WRF** (use these to cross-check anything in this skill):
+- WRF Users' Guide v4: https://www2.mmm.ucar.edu/wrf/users/docs/user_guide_v4/contents.html
+- WRF Users' website: https://www2.mmm.ucar.edu/wrf/users/
+- wrf-model/WRF repository and wiki: https://github.com/wrf-model/WRF and https://github.com/wrf-model/WRF/wiki
+- ARW v4 technical note: Skamarock et al. 2019, NCAR/TN-556+STR
+
+This skill exists only because of the work of other people, and any value it
+has is borrowed from theirs.
+
+- The **NCAR Mesoscale and Microscale Meteorology Laboratory (MMM)** for
+  developing and maintaining [wrf-model/WRF](https://github.com/wrf-model/WRF),
+  the WRF Users' Guide v4
+  (https://www2.mmm.ucar.edu/wrf/users/docs/user_guide_v4/contents.html),
+  the [WRF Users' website](https://www2.mmm.ucar.edu/wrf/users/), and the
+  [WRF GitHub wiki](https://github.com/wrf-model/WRF/wiki) that this skill
+  draws on for the Registry, dynamics, physics, and namelist documentation.
+- **Skamarock et al. (2019)** for the ARW v4 technical note
+  (NCAR/TN-556+STR), the canonical reference for the dynamical core, physics
+  options, and numerics framing in this skill.
+- The broader **WRF user community** whose questions, support-forum threads,
+  and shared run configurations underwrite the troubleshooting advice in
+  `reference/debugging.md`.
+- **Zesen Huang** for [laps-skill](https://github.com/huangzesen/laps-skill),
+  the progressive-disclosure layout this repo borrows.
+- Sibling skills `noahmp-skill` and `cam-skill` for shared structure and
+  cross-references across the NCAR atmospheric and land-surface ecosystem.
+
+Any errors, oversimplifications, or out-of-date claims in this skill are the
+skill author's responsibility, not the upstream community's. WRF is a
+registered trademark of UCAR.
+
 ## Install
 
 This skill follows the same layout as
