@@ -1,7 +1,25 @@
+# macOS
 .DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Editor swap and project files
 *.swp
 *.swo
 *~
-__pycache__/
 .idea/
 .vscode/
+
+# Python cache
+__pycache__/
+*.py[cod]
